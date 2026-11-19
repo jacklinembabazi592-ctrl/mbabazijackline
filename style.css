@@ -1,0 +1,173 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: hwb(0 36% 19% / 0.596078431372549);
+    color: #35251c;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #a84d1c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 35px;
+}
+
+nav {
+    margin-top: 18px;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+  display: flex;
+}
+
+nav a:hover {
+    color: #ffd28a;
+}
+
+/* Welcome section */
+.hero {
+    background-color: #f5d6a4;
+    text-align: center;
+    padding: 65px 20px;
+}
+
+.hero h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+}
+
+
+/* Products section */
+.productsq {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.products h2 {
+    margin-bottom: 25px;
+    color:white;
+}
+
+.product-box {
+    display: inline-block;
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    margin: 12px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+/* About and contact sections */
+.content {
+    max-width: 850px;
+    margin: 35px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.content h2 {
+    color: #a84d1c;
+    margin-bottom: 15px;
+}
+
+.content p {
+    margin-bottom: 15px;
+}
+
+/* Contact form */
+form {
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    background-color: #a84d1c;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #35251c;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
+
+/* Mobile phone styling */
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 7px;
+    }
+
+    .product-box {
+        width: 90%;
+    }
+
+    .content {
+        margin: 15px;
+    }
+}
+
+.home-page {
+    background-image: url("image/natural.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.logo {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  border-radius:120px;
+}
+
+.video-section {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff8ed;
+}
+
+.video h2 {
+    color: white
+}
+.video{
+  display: flex;
+}
+
+
