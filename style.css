@@ -96,6 +96,11 @@ nav a:hover {
 form {
     margin-top: 20px;
     background-image:url("toon.png");
+    background-attachment:fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    
 }
 
 input, textarea {
